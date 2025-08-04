@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros2_unreal_bridge</name>
+  <version>0.0.0</version>
+  <description>Communication bridge between ROS2 and UE5 via WebSocket</description>
+  <maintainer email="Voris@todo.todo">root</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Dependências ROS -->
+  <depend>rclcpp</depend>
+  <depend>nav_msgs</depend>
+
+  <!-- Dependências externas -->
+  <build_depend>libboost-system-dev</build_depend>
+  <exec_depend>libboost-system-dev</exec_depend>
+
+  <build_depend>libjsoncpp-dev</build_depend>
+  <exec_depend>libjsoncpp-dev</exec_depend>
+
+  <build_depend>libwebsocketpp-dev</build_depend>
+  <exec_depend>libwebsocketpp-dev</exec_depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

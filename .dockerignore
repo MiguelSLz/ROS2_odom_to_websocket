@@ -1,0 +1,7 @@
+.git
+.gitignore
+build
+install
+log
+.dockerignore
+README.md
